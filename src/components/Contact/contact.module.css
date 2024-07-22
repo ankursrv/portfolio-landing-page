@@ -1,0 +1,59 @@
+.contact {
+    margin-top: 120px;
+}
+
+.contactForm {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 50px;
+    padding: 0 26px;
+}
+
+.contactForm input,
+textarea {
+    width: 50%;
+    background: #262626;
+    border: none;
+    color: #fff;
+    padding: 16px 12px;
+    border-radius: 6px;
+}
+
+.contactBtn {
+    padding: 10px 60px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 18px;
+    border: none;
+}
+
+.socialIconImg img {
+    width: 50px;
+}
+
+.socialIconList {
+    display: flex;
+    gap: 12px;
+}
+
+.socialIcon {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+
+    .contactForm input,
+    textarea {
+        width: 100%;
+    }
+}

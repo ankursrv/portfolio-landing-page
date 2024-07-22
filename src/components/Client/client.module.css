@@ -1,0 +1,15 @@
+.client{margin-top: 120px;}
+
+.clientName{
+    display: flex;
+    max-width: 1200px;
+    gap: 24px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.ClientBrandImage{max-width: 250px;}

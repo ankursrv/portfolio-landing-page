@@ -1,0 +1,21 @@
+.sectionTitleContent {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 910px;
+}
+
+.sectionTitleTitle {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.sectionTitleDiscription {
+    padding: 0 24px;
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+@media screen and (max-width:576px) {
+    .sectionTitleTitle{font-size: 32px;}
+}

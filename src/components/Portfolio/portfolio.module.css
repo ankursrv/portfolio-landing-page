@@ -1,0 +1,28 @@
+.portfolio {
+    margin-top: 48px;
+}
+
+.portfolioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.portfolioImg {
+    width: 345px;
+    object-fit: cover;
+}
+
+.portfolioBtn {
+    display: block;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 14px 40px; 
+    border-radius: 30px;
+    margin-top: 60px;
+}

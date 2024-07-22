@@ -1,0 +1,37 @@
+.skilsBars {
+    display: flex;
+    align-items: start;
+    gap: 26px;
+    background: #2F2F2F;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px;
+    border-radius: 6px;
+}
+
+.skilsBarsImg {
+    width: 52px;
+}
+
+.skilsBarsContent {
+    text-align: start;
+}
+
+.skilsBarsTitle {
+    font-weight: 600;
+}
+
+.skilsBarsDiscription {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 6px;
+}
+
+.skilsBarsInner {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
