@@ -53,7 +53,7 @@ const Navbar = () => {
                 (document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
                 )}>
                     <img src="./images/contact.png" alt="contact-img" />
-                    Contact Me
+                    Contact 
                 </button>
 
                 {/* Mobile Menu STart  */}
